@@ -1,7 +1,7 @@
 vanilla.js
 ===
 
-simple little script I use to help with building sites using vanilla Javascript. 
+Simple little script I use to help with building sites using vanilla Javascript. Basically, I avoid JQuery when I can.
 
 getEl() 
 ---
@@ -16,7 +16,7 @@ HTML:
 
 JS:
 ```
-let clicked = () => {
+let clickCheck = () => {
     let el = getEl();
     console.log( 'you clicked', el ); 
     console.log( element.getAttribute( 'id' ) ); // shows "tester"
@@ -31,4 +31,4 @@ returns the opposite of a bool. Yeah, I know this is pretty stright forward and 
 filtertObjectArray( array, key, type, value )
 ---
 
-returns an array of objectes that have a key thingy thing thin...
+returns an array of objectes that have a key thingy thing thing... I'll document this when I feel then eed to
